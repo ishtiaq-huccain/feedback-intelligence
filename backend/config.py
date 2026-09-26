@@ -18,5 +18,5 @@ class Settings(BaseSettings):
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
     settings = Settings()
-    print("✅ DEBUG Settings loaded:", settings.model_dump())
+    print("✅ DEBUG Settings loaded:")
     return settings
