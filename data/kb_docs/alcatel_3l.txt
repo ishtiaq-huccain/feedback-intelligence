@@ -1,0 +1,23 @@
+Product: Alcatel 3L
+Brand: Alcatel
+Warranty: 18 months warranty for device, 6 months for accessories.
+Policy: Accidental, liquid, and cosmetic damage excluded unless covered by care plan.
+Software Updates: 2 years Android OS + 3 years security updates.
+Care Plans: Care+ plan covers drops, spills, and breakdowns with deductible.
+Returns: 7-day DOA replacement policy subject to diagnostic verification.
+Support: Self-service via app plus walk-in authorized centers.
+Repair: Repairs must be done at authorized centers to keep warranty valid.
+Battery: Battery warranty aligns with device warranty unless swollen/leaking.
+Accessories: Chargers and cables covered for 6 months; earphones 3 months.
+Region: Global
+Storage: Base
+How to Use This Info:
+  - Check Warranty for defect coverage and duration.
+  - See Policy for exclusions (e.g., accidental, liquid, cosmetic).
+  - Software Updates details support lifespan for OS/security.
+  - Care Plans list optional protection and deductibles.
+  - Returns defines store return/DOA windows.
+  - Support lists contact channels for help.
+  - Repair explains authorized service requirements.
+  - Battery & Accessories clarify separate coverage.
+Last Updated: 2025-08-25

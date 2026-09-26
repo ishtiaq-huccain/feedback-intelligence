@@ -1,0 +1,101 @@
+id,text,sentiment,category
+1,"App crashes when uploading profile picture.",negative,Bug
+2,"Please add dark mode to improve usability at night.",neutral,Feature Request
+3,"Great support helped me resolve an issue within minutes!",positive,Support
+4,"Pricing is too high for small teams.",negative,Pricing
+5,"Docs are outdated for v2 API endpoints.",negative,Documentation
+6,"The new UI looks clean and is easier to navigate.",positive,Praise
+7,"Search results are slow and often irrelevant.",negative,Performance
+8,"Two-factor authentication would improve security.",neutral,Security
+9,"Mobile app drains battery too quickly.",negative,Performance
+10,"Loving the new dashboard analytics feature!",positive,Praise
+11,"The export to CSV option is missing.",neutral,Feature Request
+12,"Customer support did not respond for three days.",negative,Support
+13,"Integrating with Zapier was seamless.",positive,Integration
+14,"Search filters don't work when selecting multiple tags.",negative,Bug
+15,"Notifications are too frequent and disruptive.",negative,Usability
+16,"I appreciate the transparency in the latest changelog.",positive,Praise
+17,"Please provide a sandbox mode for API testing.",neutral,Feature Request
+18,"Login process takes too long after the latest update.",negative,Performance
+19,"Your pricing is fair compared to competitors.",positive,Pricing
+20,"The documentation for webhooks is very clear.",positive,Documentation
+21,"Feature X is not available on Android version.",negative,Feature Request
+22,"Dark mode theme is beautifully implemented.",positive,Praise
+23,"Unable to reset password via email link.",negative,Bug
+24,"Security audit results should be shared publicly.",neutral,Security
+25,"Support team went above and beyond to solve my problem.",positive,Support
+26,"Integration with Slack fails intermittently.",negative,Integration
+27,"Please allow bulk upload of images.",neutral,Feature Request
+28,"UI is cluttered and hard to navigate on mobile.",negative,Usability
+29,"Site uptime has been 100% for the last three months.",positive,Reliability
+30,"The chatbot gives irrelevant answers.",negative,AI/Automation
+31,"The new onboarding process is smooth and intuitive.",positive,Usability
+32,"Payment processing failed during checkout.",negative,Bug
+33,"More customization options for dashboards would be great.",neutral,Feature Request
+34,"API response time improved significantly after update.",positive,Performance
+35,"Billing errors caused double charges this month.",negative,Pricing
+36,"Video tutorials are easy to follow and well-made.",positive,Documentation
+37,"Email notifications sometimes fail to send.",negative,Integration
+38,"Offer a free tier with limited features.",neutral,Pricing
+39,"The AI assistant provides very accurate responses now.",positive,AI/Automation
+40,"Image uploads fail for large files.",negative,Bug
+41,"Thank you for adding keyboard shortcuts!",positive,Feature Request
+42,"Session timeouts are too short, making work frustrating.",negative,Usability
+43,"Single sign-on integration worked perfectly.",positive,Security
+44,"Error messages are unclear and unhelpful.",negative,Documentation
+45,"Bulk edit feature saves a lot of time.",positive,Feature Request
+46,"Push notifications are delayed.",negative,Performance
+47,"Allow exporting reports in PDF format.",neutral,Feature Request
+48,"Customer success team is always friendly and helpful.",positive,Support
+49,"There is too much whitespace in the desktop layout.",negative,Usability
+50,"The mobile version now loads twice as fast.",positive,Performance
+51,"Support chat closes automatically after 5 minutes of inactivity.",negative,Support
+52,"Please add regional pricing options.",neutral,Pricing
+53,"Security patches are released promptly.",positive,Security
+54,"App crashes when switching between tabs quickly.",negative,Bug
+55,"The new calendar sync feature is very useful.",positive,Integration
+56,"Loading spinner stays forever on slow connections.",negative,Performance
+57,"Step-by-step guides are missing for advanced features.",negative,Documentation
+58,"Loving the weekly summary emails!",positive,Praise
+59,"Consider adding voice command support.",neutral,Feature Request
+60,"API rate limits are too restrictive.",negative,Performance
+61,"UI animations are smooth and visually appealing.",positive,Praise
+62,"Unable to change password from account settings.",negative,Bug
+63,"Would be nice to have a dedicated offline mode.",neutral,Feature Request
+64,"Customer service follow-up was quick and thorough.",positive,Support
+65,"Too many pop-ups interrupt the workflow.",negative,Usability
+66,"Error logs are detailed and help in debugging.",positive,Documentation
+67,"Pricing tiers are confusing and unclear.",negative,Pricing
+68,"Real-time collaboration is a game changer!",positive,Feature Request
+69,"Login with Google fails intermittently.",negative,Integration
+70,"Offer more language options for global users.",neutral,Feature Request
+71,"Two-factor authentication setup was easy and fast.",positive,Security
+72,"Search indexing is incomplete for certain records.",negative,Performance
+73,"The roadmap updates are transparent and clear.",positive,Praise
+74,"Bug reports go unanswered for weeks.",negative,Support
+75,"The AI chatbot saves me hours of manual work.",positive,AI/Automation
+76,"Exported CSV files have incorrect column headers.",negative,Bug
+77,"Dark mode now syncs with system settings.",positive,Feature Request
+78,"Feature documentation lacks real-world examples.",negative,Documentation
+79,"Free trial should be longer than 7 days.",neutral,Pricing
+80,"Mobile app layout adapts well to tablets.",positive,Usability
+81,"Reports sometimes fail to generate.",negative,Bug
+82,"Integration with Microsoft Teams works flawlessly.",positive,Integration
+83,"Captcha during login is too difficult to solve.",negative,Usability
+84,"Allow users to reorder dashboard widgets.",neutral,Feature Request
+85,"Page load speed is noticeably faster after update.",positive,Performance
+86,"Security alerts are too frequent and distracting.",negative,Security
+87,"In-app tutorials make onboarding much easier.",positive,Documentation
+88,"The AI summarizer produces inconsistent results.",negative,AI/Automation
+89,"Would be nice to add custom user roles.",neutral,Feature Request
+90,"Support team resolved my issue in under an hour.",positive,Support
+91,"Image thumbnails don't load in gallery view.",negative,Bug
+92,"Transparent pricing table is a big improvement.",positive,Pricing
+93,"Integration with third-party API is unstable.",negative,Integration
+94,"Please add advanced search operators.",neutral,Feature Request
+95,"Security features exceed industry standards.",positive,Security
+96,"Text alignment breaks in mobile view.",negative,Usability
+97,"The beta features are innovative and exciting.",positive,Praise
+98,"Voice assistant misinterprets commands often.",negative,AI/Automation
+99,"Provide option to schedule recurring reports.",neutral,Feature Request
+100,"The system maintained 99.99% uptime this quarter.",positive,Reliability

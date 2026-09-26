@@ -1,0 +1,23 @@
+Product: iPhone 14 Pro
+Brand: Apple
+Warranty: 12 months manufacturer warranty.
+Policy: Accidental, liquid, and cosmetic damage excluded unless covered by care plan.
+Software Updates: 3 years Android OS + 5 years security updates.
+Care Plans: Preferred Care offers accidental and mechanical coverage.
+Returns: Returns accepted within 14 days if purchased from official store.
+Support: Support via chat, phone, and authorized service centers.
+Repair: Repairs must be done at authorized centers to keep warranty valid.
+Battery: Battery warranty aligns with device warranty unless swollen/leaking.
+Accessories: Chargers and cables covered for 6 months; earphones 3 months.
+Region: Global
+Storage: Base
+How to Use This Info:
+  - Check Warranty for defect coverage and duration.
+  - See Policy for exclusions (e.g., accidental, liquid, cosmetic).
+  - Software Updates details support lifespan for OS/security.
+  - Care Plans list optional protection and deductibles.
+  - Returns defines store return/DOA windows.
+  - Support lists contact channels for help.
+  - Repair explains authorized service requirements.
+  - Battery & Accessories clarify separate coverage.
+Last Updated: 2025-08-25
