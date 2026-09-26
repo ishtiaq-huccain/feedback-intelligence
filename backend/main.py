@@ -1,9 +1,17 @@
 from fastapi import FastAPI
-from backend.api.router import router  # import the APIRouter instance
 
-app = FastAPI(title="Feedback Intelligence API", version="0.2.0")
+from backend.api.router import router
+from backend.database.database import bootstrap_schema
 
-# Mount central router
+app = FastAPI(
+    title="Feedback Intelligence API",
+    version="0.2.0",
+)
+
+@app.on_event("startup")
+def startup_event():
+    bootstrap_schema()
+
 app.include_router(router)
 
 
