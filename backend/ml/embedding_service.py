@@ -11,38 +11,29 @@ class EmbeddingService:
 
     @classmethod
     def get_model(cls):
-        """
-        Load the embedding model only once per worker/process.
-        """
         if cls._model is None:
             cls._model = SentenceTransformer(
-                "BAAI/bge-small-en-v1.5",
+                "sentence-transformers/all-MiniLM-L6-v2",
                 device="cpu"
             )
         return cls._model
 
     def embed_text(self, text: str):
-        """Return embedding vector for a given text."""
         model = self.get_model()
 
         embedding = model.encode(
             text,
             normalize_embeddings=True,
-            convert_to_numpy=True
+            convert_to_numpy=True,
+            show_progress_bar=False
         )
 
         return embedding.tolist()
 
     def embed(self, text: str):
-        """Alias for embed_text."""
         return self.embed_text(text)
 
-    def generate_embeddings_batch(self, limit: int = 20):
-        """
-        Generate embeddings for a limited number of feedback rows.
-        Uses batch encoding to reduce overhead.
-        """
-
+    def generate_embeddings_batch(self, limit: int = 5):
         rows = (
             self.db.query(Feedback)
             .filter(
@@ -62,7 +53,7 @@ class EmbeddingService:
 
         embeddings = model.encode(
             texts,
-            batch_size=4,
+            batch_size=2,
             normalize_embeddings=True,
             convert_to_numpy=True,
             show_progress_bar=False
@@ -83,12 +74,7 @@ class EmbeddingService:
 
         return results
 
-    def generate_all_embeddings(self, batch_size: int = 20):
-        """
-        Generate embeddings for all missing rows without loading
-        the entire feedback table into memory.
-        """
-
+    def generate_all_embeddings(self, batch_size: int = 5):
         results = []
 
         while True:
@@ -111,7 +97,7 @@ class EmbeddingService:
 
             embeddings = model.encode(
                 texts,
-                batch_size=4,
+                batch_size=2,
                 normalize_embeddings=True,
                 convert_to_numpy=True,
                 show_progress_bar=False
