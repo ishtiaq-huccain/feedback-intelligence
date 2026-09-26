@@ -26,3 +26,4 @@ groq==0.4.2
 python-dotenv==1.0.1
 requests==2.32.3
 pydantic==2.7.3
+pydantic-settings==2.10.1
