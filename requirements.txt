@@ -30,3 +30,4 @@ requests==2.32.3
 pydantic==2.7.4
 pydantic-settings==2.10.1
 PyPDF2==3.0.1
+python-multipart==0.0.9
